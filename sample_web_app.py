@@ -1,5 +1,5 @@
 from flask import Flask, redirect, request
-from pyquizlet import Quizlet
+from py3quizlet2 import Quizlet
 
 app = Flask(__name__)
 
