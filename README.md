@@ -1,1 +1,2 @@
-Stick your Quizlet dev key and username into ~/.pyquizlet and go.
+Python 3 client for Quizlet 2.0 API
+
