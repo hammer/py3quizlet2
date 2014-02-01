@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 from flask import Flask, redirect, request
 from py3quizlet2 import Quizlet
 
