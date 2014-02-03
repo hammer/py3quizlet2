@@ -5,10 +5,9 @@ from py3quizlet2 import Quizlet
 
 app = Flask(__name__)
 
-# TODO(hammer): pick this up from environment
-client_id = ''
-encoded_auth_str = ''
-redirect_uri = ''
+client_id = os.environ['QUIZLET_CLIENT_ID']
+encoded_auth_str = os.environ['QUIZLET_ENCODED_AUTH_STR']
+redirect_uri = 'http://localhost:5000'
 
 # TODO(hammer): check state
 @app.route("/")
