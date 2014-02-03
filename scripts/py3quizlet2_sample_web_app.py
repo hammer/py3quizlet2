@@ -1,6 +1,8 @@
 #! /usr/bin/env python3
 
 from flask import Flask, redirect, request
+import os
+
 from py3quizlet2 import Quizlet
 
 app = Flask(__name__)
